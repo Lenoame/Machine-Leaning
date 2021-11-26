@@ -91,3 +91,59 @@ Military Logistics (Big data processing, Reinforce ML)
 물류 그 자체의 역사가 군과 밀접하게 불가분했다는 사실은 부정하지 못합니다. 물류 시스템에서도 정시성과 정확성의 가중치과 가장 높은 산업군이 국방과 군대일 것입니다. 따라서 이렇게 적시적소에 군사 물자를 전달하는 것은 매우 복잡하고 까다로운 과정임으로 더욱 정교하고 진보된 기술을 필요로 합니다.
 
 군사물류는 아주 방대한 데이터의 다루게 됩니다. 따라서 이러한 빅데이터를 어떻게 활용하는지가 가장 큰 이슈가 될 것입니다. 여기서 사용되는 대표적인 기술로는 강화학습 (Reinforcement Learning)이 있습니다. 알파고에도 사용된 강화학습은 주어진 상황마다 원하는 목적을 이루기 위한 액션을 스스로 결정합니다. 우리가 이번 강의에서 다루게 될 지도, 비지도 학습의 머신러닝보다 더 긴 과정을 수행하기 위한 기법이며 훨씬 많은 양의 데이터를 필요로 합니다. 예를들어 알파고는 10만번의 게임 데이터에서 3천만번 이상의 움직임으로 학습되었습니다.
+<<<<<<< HEAD
+
+## Session 3 : 선형 회귀분석
+Machine Learning
+
+Supervised Learning 지도학습
+
+Learn to predict target values from labelled data
+
+- Regression
+- Classification
+
+x변수에서 y변수를 같이 넣어주고 어떤 기법으로 출력할지 데이터 사이언티스트가 정의해준다
+
+Unsupervised 비지도학습
+
+Find structure in unlabeld data
+
+- Clustering 군집분석
+- Dimensionality Reduction 차원축소
+
+x만 집어넣고 목적에 맞는 y값을 받는 것
+
+Reinforcement 강화학습
+
+- Take actions in an enviroment to maximize cumulative reward
+
+### Supervised : Regression Analysis
+
+회귀분석
+
+각 변수에 들어있는 값들이 새로운 y값이 주어졌을 때 변수의 값을 구하기
+
+Single Linear Regression (OLS : Ordinary Least Squares)
+
+선형 회귀
+
+데이터들이 분산되있는데 이 데이터들을 대표하는 선을 찾는 것
+
+Minimize the sum of the squares of the errors(resicduals)!
+
+모든 점에서 제일 작은 오차를 보이는 선을 찾기
+
+변수마다 각기 다른 변수를 곱해줌
+
+데이터나 통계할 때 주의할 점
+
+상관관계는 알 수 있지만 인과관계는 알 수 없다
+
+Conjoint analysis
+
+여러 변수를 한 그룹으로 묶어서 주고 스코어나 랭킹으로 받음
+
+이 데이터를 분석해서 고객이 가장 선호하는 것을 알 수 있다
+=======
+>>>>>>> 0790e8345bd80f7fe233f0201207149c1584db83
